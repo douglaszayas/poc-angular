@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  poc-angular:
+    image: poc-angular
+    build: .  
+    ports:
+      - 8081:80
